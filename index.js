@@ -20,7 +20,7 @@ function sideBar(){
 
 function homePage(){
     $(".home").on("click",function(event){
-        $(".home").css("color","darkgray");
+        $(".home").css("color","rgb(175, 226, 247)");
         $(".projects").css("color","white");
         $(".contactMe").css("color","white");
         $("main").html("<section class='personalBio'><p>Bio Here</p></section>");
@@ -31,7 +31,7 @@ function homePage(){
 function projectsPage(){
     $(".projects").on("click", function(event){
         $(".home").css("color","white");
-        $(".projects").css("color","darkgray");
+        $(".projects").css("color","rgb(175, 226, 247)");
         $(".contactMe").css("color","white");
         $("main").html("<section class='projectsPageData'><section class='projectDescription'><a href='https://github.com/tcgronk/Quiz-App' target='_blank'><h2>Quiz App</h2></a><p>Check out my first project! To create this quiz app, I used HTML, CSS, Javascript, & jQuery. </p></section><section><a class='wineApp' href='https://tcgronk.github.io/Quiz-App/' target='_blank'><img src='portfolio-wine.jpg' alt='portfolio quiz app'></a></section>");
     });
@@ -40,7 +40,7 @@ function projectsPage(){
 function contactPage(){
     $(".contactMe").on("click", function(event){
         $(".home").css("color","white");
-        $(".contactMe").css("color","darkgray");
+        $(".contactMe").css("color","rgb(175, 226, 247)");
         $(".projects").css("color","white");
         $('main').html("<section class='contacting'><p>Contact Info Here</p></section>");
     });
@@ -48,7 +48,7 @@ function contactPage(){
 
 $( document ).ready(function() {
     $("main").html("<section class='personalBio'><p>Bio Here</p></section>");
-    $(".home").css("color","darkgray");
+    $(".home").css("color","rgb(175, 226, 247)");
 });
 
 

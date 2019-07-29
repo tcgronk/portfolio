@@ -8,18 +8,23 @@ head{
     display: none;
 }
 body{
-    background: gray;
+    background: black;
 }
 main,heading{
     align-items: center;
     text-align: center;
-    
+    font-family: 'Playfair Display', serif;
 }
 .initial{
     font-size: 70px;
     padding: 2%;
     text-align: center;
     
+    
+}
+.initial,#sideBar{
+    font-family: 'Gravitas One', cursive;
+    color: rgb(175, 226, 247);
 }
 
 
@@ -72,7 +77,6 @@ a{
     font-size: 20px;
 }
 #sideBar{
-    color: white;
     position: absolute;
     right: 10px;
     bottom: 70px;
